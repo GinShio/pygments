@@ -1,0 +1,4 @@
+build/
+dist/
+pygments_style_*.egg-info/
+pygments_style_*.dist-info/
