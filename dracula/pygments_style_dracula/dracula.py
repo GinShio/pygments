@@ -21,7 +21,7 @@ from pygments.token import Keyword, Name, Comment, String, Error, \
 
 class DraculaStyle(Style):
     """
-    Port of the Dracula colour scheme https://github.com/dracula/dracula-theme
+    Port of the Dracula color scheme https://github.com/dracula/dracula-theme
     """
 
     background_color = "#282a36"
