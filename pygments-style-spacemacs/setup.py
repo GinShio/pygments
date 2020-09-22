@@ -1,14 +1,19 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+
 
 setup(
     name='pygments-style-spacemacs',
     version='1.0.0',
     description='Pygments version of the spacemacs theme, Based on nashamri/spacemacs-theme.',
     keywords=['pygments', 'style', 'spacemacs'],
-    author='Xin \'GinShio\' Liu',
-    author_email='ginshio78@gmail.com',
-    url='https://github.com/ginshio/pygments/tree/master/spacemacs/pygments_style_spacemacs',
+    author='Nasser Alshammari',
+    author_email='designernasser@gmail.com',
+    maintainer='GinShio',
+    maintainer_email='ginshio78@gmail.com',
+    utl='https://github.com/nashamri/spacemacs-theme',
+    download_url='https://github.com/GinShio/pygments',
     license='GPLv3',
     packages=find_packages(),
     install_requires=['pygments >= 1.5'],

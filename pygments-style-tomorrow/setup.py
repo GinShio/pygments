@@ -1,15 +1,18 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+
 
 setup(
     name='pygments-style-tomorrow',
     version='1.0.0',
     description='Pygments version of the tomorrow theme, Based on mozmorris/tomorrow-pygments.',
     keywords=['pygments', 'style', 'tomorrow'],
-    author='Xin \'GinShio\' Liu',
-    author_email='ginshio78@gmail.com',
-    url='https://github.com/ginshio/pygments/tree/master/tomorrow/pygments_style_tomorrow',
-    license='MIT',
+    author='Moz Morris',
+    author_email='moz@earthview.co.uk',
+    maintainer='GinShio',
+    maintainer_email='ginshio78@gmail.com',
+    url='https://github.com/mozmorris/tomorrow-pygments',
     packages=find_packages(),
     install_requires=['pygments >= 1.5'],
     zip_safe=False,
@@ -23,7 +26,6 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Plugins',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',

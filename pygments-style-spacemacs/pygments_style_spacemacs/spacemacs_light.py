@@ -41,7 +41,7 @@ NONE = ""
 
 class SpacemacsLightStyle(Style):
     """
-    Port of the Spacemacs Light color scheme https://github.com/nashamri/spacemacs-theme
+    Port of the Spacemacs Light color scheme. https://github.com/nashamri/spacemacs-theme
     """
     default_style = NONE
     background_color = BACKGROUND

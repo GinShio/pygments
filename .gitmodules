@@ -1,0 +1,9 @@
+[submodule "dracula"]
+	path = dracula
+	url = https://github.com/dracula/pygments
+[submodule "tomorrow"]
+	path = tomorrow
+	url = https://github.com/mozmorris/tomorrow-pygments
+[submodule "spacemacs"]
+	path = spacemacs
+	url = https://github.com/nashamri/spacemacs-theme

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    Spacemacs Light
+    Spacemacs Dark
     Copyright (C) 2015-2018 Nasser Alshammari
 
     Author: Nasser Alshammari
@@ -23,25 +23,25 @@ ITALIC = " italic"
 BOLD = " bold"
 UNDERLINE = " underline"
 
-BACKGROUND = "#fbf8ef"
-HIGHLIGHT = "#d3d3e7"
+BACKGROUND = "#292b2e"
+HIGHLIGHT = "#444155"
 
-BASE = "#655370"
+BASE = "#b2b2b2"
 ERROR = "#e0211d"
 COMMENT = "#2aa1ae"
-KEYWORD = "#3a81c3"
-TYPE = "#ba2f59"
-FUNC = "#6c3163"
-CONST = "#4e3163"
-VAR = "#715ab1"
+KEYWORD = "#4f97d7"
+TYPE = "#ce537a"
+FUNC = "#bc6ec5"
+CONST = "#a45bad"
+VAR = "#7590db"
 STR = "#2d9574"
-DOC = "#da8b55"
+DOC = "#9f8766"
 NONE = ""
 
 
-class SpacemacsLightStyle(Style):
+class SpacemacsDarkStyle(Style):
     """
-    Port of the Spacemacs Light color scheme https://github.com/nashamri/spacemacs-theme
+    Port of the Spacemacs Dark color scheme. https://github.com/nashamri/spacemacs-theme
     """
     default_style = NONE
     background_color = BACKGROUND

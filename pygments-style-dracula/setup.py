@@ -1,14 +1,18 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+
 
 setup(
     name='pygments-style-dracula',
     version='1.2.5',
-    description='Pygments version of the dracula theme, based on  dracula/pygments.',
+    description='Pygments version of the dracula theme, based on dracula/pygments.',
     keywords=['pygments', 'style', 'dracula'],
-    author='Xin \'GinShio\' Liu',
-    author_email='ginshio78@gmail.com',
-    url='https://github.com/ginshio/pygments/tree/master/dracula/pygments_style_dracula',
+    author='Rob G, Chris Bracco, Zeno Rocha',
+    author_email='wowmotty@gmail.com, chris@cbracco.me, hi@zenorocha.com',
+    maintainer='GinShio',
+    maintainer_email='ginshio78@gmail.com',
+    url='https://draculatheme.com/pygments',
     license='MIT',
     packages=find_packages(),
     install_requires=['pygments >= 1.5'],
