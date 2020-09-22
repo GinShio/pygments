@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments-style-spacemacs',
-    version='1.0.0',
+    version='1.0.0.1',
     description='Pygments version of the spacemacs theme, Based on nashamri/spacemacs-theme.',
     keywords=['pygments', 'style', 'spacemacs'],
     author='Nasser Alshammari',
@@ -25,7 +25,7 @@ setup(
         'Development Status :: 4 - Beta',
         'Environment :: Plugins',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GPLv3 License',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',

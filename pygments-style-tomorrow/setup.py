@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments-style-tomorrow',
-    version='1.0.0',
+    version='1.0.0.1',
     description='Pygments version of the tomorrow theme, Based on mozmorris/tomorrow-pygments.',
     keywords=['pygments', 'style', 'tomorrow'],
     author='Moz Morris',

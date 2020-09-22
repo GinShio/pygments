@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pygments-style-dracula',
-    version='1.2.5',
+    version='1.2.5.1',
     description='Pygments version of the dracula theme, based on dracula/pygments.',
     keywords=['pygments', 'style', 'dracula'],
     author='Rob G, Chris Bracco, Zeno Rocha',
