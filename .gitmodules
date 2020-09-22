@@ -7,3 +7,6 @@
 [submodule "spacemacs"]
 	path = spacemacs
 	url = https://github.com/nashamri/spacemacs-theme
+[submodule "soft-era"]
+	path = soft-era
+	url = https://github.com/soft-aesthetic/soft-era
